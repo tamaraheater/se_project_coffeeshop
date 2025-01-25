@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title class="title">"Triple Peaks Cafe</title>
+    <title class="title">Triple Espresso Cafe</title>
     <meta charset="UTF-8" />
     <meta
       name="description"
-      content="An invitation to the cafe inside Triple Peaks Library"
+      content="Visit the cafe inside Triple Peaks Library"
     />
     <meta name="keywords" content="Cafe, coffee, coffeeshop" />
     <meta name="author" content="Tamara Heater" />
@@ -20,16 +20,65 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
     <div class="page">
-      <header class="header"><h1>Heading</h1></header>
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Tripple Espresso Cafe Logo "
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a href="#recipes" class="nav__link">Recipes</a>
+            </li>
+            <li>
+              <a href="#reservations" class="nav__link">Reservations</a>
+            </li>
+            <li>
+              <a href="#menu" class="nav__link">Menu</a>
+            </li>
+            <li>
+              <a href="#contact-us" class="nav__link">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="header__title">
+          <span class="header__span-accent">Tripple Esspresso Cafe</span>...inside
+          Triple Peaks Library
+        </h1>
+        <p class="header__description">
+          Welcome to our study zone in the Tripple Espresso Cafe! We've got the
+          coffee to energize you, the "eats" to delight you, recipes to peruse, and the cozy vibes to help get you into that creative spirit.
+        </p>
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="Illistration of Tripple Espresso Cafe"
+          class="header__image"
+        />
+        <div class="header__footer">
+          <div>
+            <p class="header__paragraph">Hours</p>
+            <p class="header__paragraph">Monday – Friday (10:00 am – 7:00 pm)</p>
+            <p class="header__paragraph">Saturday – Sunday (11:00 am – 6:00 pm)</p>
+          </div>
+          <div>
+            <p class="header__paragraph">
+              200 Success Avenue, The Town of Triple Peaks
+            </p>
+          </div>
+        </div>
+      </header>
+
       <main class="content">
-        <section class="Recipes"></section>
-        <section class="Reservation"></section>
-        <section class="Menu"></section>
-        <section class="About"></section>
+        <section id="recipes"><h2 class="section__title">Recipes</h2></section>
+        <section id="reservations"><h2 class="section__title">Reservations</h2></section>
+        <section id="menu"><h2 class="section__title">Menu</h2></section>
+        <section id="about"><h2 class="section__title">About</h2></section>
       </main>
-      <footer class="footer"></footer>
+      <footer id="contact-us"><h2 class=footer__title>Contact Us</h2></footer>
     </div>
   </body>
 </html>

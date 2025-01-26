@@ -20,7 +20,6 @@
       rel="stylesheet"
     />
   </head>
-
   <body>
     <div class="page">
       <header class="header">
@@ -76,15 +75,14 @@
           </div>
         </div>
       </header>
-
       <main class="content">
-        <section id="recipes">
+        <section class id="recipes">
           <h2 class="recipes__title">Recipes</h2>
           <p class="recipes__subtitle">
-            Check out some video based recipes we have collected for your
+            Check out these video based recipes we have collected for your
             home-brewing convenience:
           </p>
-          <ul ckass="recipes__videos>">
+          <ul class="recipes__videos">
             <li>
               <iframe
                 src="https://www.youtube.com/embed/j6VlT_jUVPc?si=1Sxs523MokbgujsK"
@@ -107,13 +105,15 @@
             </li>
           </ul>
         </section>
-        <section id="reservations">
-          <h2 class="reservations__title">Reservations</h2>
-        </section>
-        <section id="menu"><h2 class="menu__title">Menu</h2></section>
-        <section id="about"><h2 class="about__title">About</h2></section>
+
+        <!----------------Just the mere mention of a form to be created is causing errors and bombardment of 3rs party requests in developer mode regarding "crossorigin??"
+        -Code Begin-- <section class id="reservations"><h2 class="reservations__title">Reservations</h2></section> Code End---Remove comments to proceede!!-->
+        <section class id="menu"><h2 class="menu__title">Menu</h2></section>
+        <section class id="about"><h2 class="about__title">About</h2></section>
       </main>
-      <footer id="contact-us"><h2 class="footer__title">Contact Us</h2></footer>
+      <footer class id="contact-us">
+        <h2 class="footer__title">Contact Us</h2>
+      </footer>
     </div>
   </body>
 </html>

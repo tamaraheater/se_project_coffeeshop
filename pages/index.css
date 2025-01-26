@@ -49,8 +49,8 @@
 .header__image {
   top: 124px;
   right: 5px;
-  width: 700px;
-  height: 650px;
+  width: 646px;
+  height: 568px;
   position: absolute;
 }
 
@@ -58,7 +58,7 @@
   margin-top: auto;
   display: flex;
   justify-content: space-between;
-  align-items: flex end;
+  align-items: flex-end;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -68,7 +68,6 @@
 }
 
 .header__paragraph {
-  margin: 0;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -106,4 +105,23 @@
   font-weight: 500;
   font-size: 17px;
   line-height: 20px;
+}
+
+.recipes {
+  color: #fff;
+  background-color: #0a2750;
+  padding: 100px 80px 215px;
+}
+
+.recipes__title {
+  margin: 0 0 24px;
+}
+
+.recipes__subtitles {
+  margin: 0 0 80px;
+}
+
+.recipes__videos {
+  display: flex;
+  justify-content: center;
 }

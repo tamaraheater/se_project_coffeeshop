@@ -18,7 +18,7 @@
 }
 
 .header__title {
-  margin: 183 0 0;
+  margin: 183px 0 0;
   max-width: 729px;
   font-family: "Inter";
   font-style: normal;
@@ -84,7 +84,7 @@
 .nav__logo {
   height: 39px;
   width: 105px;
-  position: reletive;
+  position: relative;
   left: -50px;
 }
 

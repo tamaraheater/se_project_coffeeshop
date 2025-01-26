@@ -125,4 +125,5 @@
   display: flex;
   justify-content: center;
   gap: 100px;
+  list-style-type: none;
 }

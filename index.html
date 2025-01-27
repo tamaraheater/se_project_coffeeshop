@@ -45,13 +45,15 @@
           </ul>
         </nav>
         <h1 class="header__title">
-          <span class="header__span-accent">Tripple Esspresso Cafe</span
+          <span class="header__span-accent">Triple Esspresso Cafe</span
           >...inside Triple Peaks Library
         </h1>
         <p class="header__description">
-          Welcome to our study zone in the Tripple Espresso Cafe! We've got the
-          coffee to energize you, the "eats" to delight you, recipes to peruse,
-          and the cozy vibes to help get you into that creative spirit.
+          Welcome to our study zone in the Triple Espresso Cafe! <br />
+          We've got the coffee to energize you, the "eats" to delight you,
+          <br />
+          recipes to peruse, and the cozy vibes to help you reach your <br />
+          creative side.
         </p>
         <img
           src="./images/inside_coffee_shop.png"
@@ -76,10 +78,10 @@
         </div>
       </header>
       <main class="content">
-        <section class id="recipes">
+        <section class="recipes" id="recipes">
           <h2 class="recipes__title">Recipes</h2>
           <p class="recipes__subtitle">
-            Check out these video based recipes we have collected for your
+            Check out these video-based recipes we have collected for your
             home-brewing convenience:
           </p>
           <ul class="recipes__videos">
@@ -90,8 +92,12 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
+                freameborder="0"
+                class="recipes__iframe"
               ></iframe>
-              <p class="recipes__video-caption">Title</p>
+              <p class="recipes__video-caption">
+                <span>Aeropress Recipe</span><span>~5 Minutes</span>
+              </p>
             </li>
             <li>
               <iframe
@@ -100,17 +106,26 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
+                freameborder="0"
+                class="recipes__iframe"
               ></iframe>
-              <p class="recipes__video-caption">Title</p>
+              <p class="recipes__video-caption">
+                <span>French Press</span><span>~15 Minutes</span>
+              </p>
             </li>
           </ul>
         </section>
-        <!---Just the mere mention of a form to be created is causing errors and bombardment of 3rs party requests in developer mode regarding "crossorigin??"
-        -Code Begin--<section class id="reservations"><h2 class="reservations__title">Reservations</h2></section> Code End---Remove comments to proceede!!-->
-        <section class id="menu"><h2 class="menu__title">Menu</h2></section>
-        <section class id="about"><h2 class="about__title">About</h2></section>
+        <!---Just the mere mention of a f o r m to be created or word reservation is causing errors and bombardment of 3rd party requests in developer mode regarding
+        "c r o s s o rigin??Also issues poss coming from the above i f r a ma e"
+        -Code Begin--<section class=reservations id="reservations"><h2 class="reservations__title">Reservations</h2></section>Code End---Remove comments to proceede!!-->
+        <section class="menu" id="menu">
+          <h2 class="menu__title">Menu</h2>
+        </section>
+        <section class="about" id="about">
+          <h2 class="about__title">About</h2>
+        </section>
       </main>
-      <footer class id="contact-us">
+      <footer class="contact-us" id="contact-us">
         <h2 class="footer__title">Contact Us</h2>
       </footer>
     </div>

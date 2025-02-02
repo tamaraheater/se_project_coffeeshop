@@ -78,7 +78,7 @@
         </div>
       </header>
       <main class="content">
-        <section class="recipes" id="recipes">
+        <section id="recipes" class="recipes">
           <h2 class="recipes__title">Recipes</h2>
           <p class="recipes__subtitle">
             Check out these video-based recipes we have collected<br />
@@ -113,8 +113,55 @@
             </li>
           </ul>
         </section>
-        <section class="reservations" id="reservations">
-          <h2 class="reservations__title">Reservations</h2>
+        <section id="reservations" class="reservations">
+
+          <h2 class="reservations__title">Reservation Request</h2>
+          <form class="reservations__form form">
+            <fieldset class="form__fieldset">
+              <label for="name-input" class="form__label">Name *<input
+                  id="name-input"
+                  class="form__input"
+                  type="text"
+                  placeholder="Full Name"
+                  required
+                />
+              </label>
+              <label for="guests-input" class="form__label">Guests *<input
+                  id="guests-input"
+                  class="form__input"
+                  type="number"
+                  min="1"
+                  max="8"
+                  placeholder="1-8"
+                  required
+                />
+              </label>
+              <label for="Date&Time" class="form__label">Date & Time *<input
+                  id="Date&Time"
+                  class="form__input"
+                  type="datetime-local"
+                  required
+                />
+              </label>
+              <label for="email-input" class="form__label">Email address *<input
+                  id="email-input"
+                  class="form__input"
+                  type="email"
+                  placeholder="your@email.com"
+                  required
+                />
+              </label>
+              <button class="form__button">Book a Table</button>
+              <label for="checkbox-input" class="form__label form__label_type_checkbox">
+                <input
+                id="checkbox-input"
+                class="form__checkbox"
+                type="checkbox"
+                value="default"
+                required />"I agree with the terms of use"
+             </label>
+            </fieldset>
+          </form>
         </section>
         <section class="menu" id="menu">
           <h2 class="menu__title">Menu</h2>
@@ -123,7 +170,7 @@
           <h2 class="about__title">About</h2>
         </section>
       </main>
-      <footer class="footer" id="footer"></footer>
+      <footer id="footer" class="footer"></footer>
     </div>
   </body>
 </html>

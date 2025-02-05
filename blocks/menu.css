@@ -1,0 +1,25 @@
+.menu {
+  background-image: url(../images/background_menu.svg);
+  background-repeat: no repeat;
+  background-position: center;
+  background-color: #fff;
+  size: cover;
+  margin: 0;
+  padding: 100px 0;
+}
+
+.menu__title {
+  margin: 0 0 24;
+  max-width: 780px;
+  }
+
+.menu__subtitle {
+  margin: 0 0 100px;
+}
+
+  .menu__cards
+  .card
+  .card__title
+  .card__list
+  .card__list-item
+  .card__list-divider

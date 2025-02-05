@@ -120,6 +120,7 @@
               <label for="name-input" class="form__label"
                 >Name *<input
                   id="name-input"
+                  name="name-input"
                   class="form__input"
                   type="text"
                   placeholder="Full Name"
@@ -129,6 +130,7 @@
               <label for="guests-input" class="form__label"
                 >Guests *<input
                   id="guests-input"
+                  name="guests-input"
                   class="form__input"
                   type="number"
                   min="1"
@@ -137,9 +139,10 @@
                   required
                 />
               </label>
-              <label for="Date&Time" class="form__label"
+              <label for="datetime-input" class="form__label"
                 >Date & Time *<input
-                  id="Date&Time"
+                  id="datetime-input"
+                  name="datetime-input"
                   class="form__input"
                   type="datetime-local"
                   required
@@ -148,18 +151,20 @@
               <label for="email-input" class="form__label"
                 >Email address *<input
                   id="email-input"
+                  name="email-input"
                   class="form__input"
                   type="email"
                   placeholder="your@email.com"
                   required
                 />
               </label>
-              <button class="form__button">Book a Table</button>
+              <button class="form__button" type="submit">Book a Table</button>
               <label
                 for="checkbox-input"
                 class="form__label form__label_type_checkbox"
                 ><input
                   id="checkbox-input"
+                  name="checkbox-input"
                   class="form__checkbox"
                   type="checkbox"
                   value="default"
@@ -248,20 +253,38 @@
         </section>
         <section id="about" class="about">
           <h2 class="about__title">About Tripple Peaks Cafe</h2>
-            <content class="about__content">
-              <p class="about__paragraph">
-                Our coffee shop is located in the Triple Peaks Library. 200 Success Avenue,
-                Town of Triple Peaks.</p>
-              <p class="about__paragraph">Our Cafe features 6 tables that each seat 8 guests and free WiFi is available for you.
-                Our main mission is keeping guests cozy and energized.</p>
-              <p class="about__paragraph">Besides that, we try to reduce our environmental impact — so we don't sell
-                single-use cups. But you can buy one of our reusable cups!</p>
-           </content>
-         <div class="about__circle"></div>
-         <div class="about__circle about__circle_animation_blurred"></div>
+          <content class="about__content">
+            <p class="about__paragraph">
+              Our coffee shop is located in the Triple Peaks Library. 200
+              Success Avenue, Town of Triple Peaks.
+            </p>
+            <p class="about__paragraph">
+              Our Cafe features 6 tables that each seat 8 guests and free WiFi
+              is available for you. Our main mission is keeping guests cozy and
+              energized.
+            </p>
+            <p class="about__paragraph">
+              Besides that, we try to reduce our environmental impact — so we
+              don't sell single-use cups. But you can buy one of our reusable
+              cups!
+            </p>
+          </content>
+          <div class="about__circle"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
         </section>
       </main>
       <footer id="footer" class="footer"></footer>
+      <content class="footer__content"></content>
+      <img src="./images/logo_coffeeshop_light.svg" alt="TripleTen Logo" class="footer__logo"
+      />
+      <div class=footer__column></div>
+      </div class=footer__social-heading></div>
+      <ul class="footer list"></ul>
+        <li class="footer__list-item"></li>
+        <li class="footer__list-item"></li>
+        <div class= "footer__social-icon"></div>
+        <a href src="" alt="footer__social-link"></a>
+        <div class="footercopyriht">TamaraHeater</div>
     </div>
   </body>
 </html>

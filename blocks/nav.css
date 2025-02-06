@@ -27,4 +27,10 @@
   font-weight: 500;
   font-size: 17px;
   line-height: 20px;
+  transition: opacity 0.5s;
+  cursor: pointer;
+}
+
+.nav__link:hover {
+  opacity: 0.5;
 }

@@ -22,7 +22,8 @@
   box-sizing: border-box;
   margin: 8px 0 32px;
   border-radius: 4px;
-  font-family: "Inter" Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
+  border: 1px solid #838383;
   font-size: 20px;
   line-height: 30px;
   color: #000;
@@ -52,7 +53,9 @@
 
 .form__button:hover {
   background-color: #3f96f3;
+  transition: background-color 0.4s;
 }
+
 
 .form__checkbox {
   border-radius: 2px;

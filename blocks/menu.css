@@ -9,7 +9,7 @@
 .menu__title {
   margin: 0 0 24;
   max-width: 780px;
-  font-family: "Inter" Arial, sans-serif;;
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -18,7 +18,7 @@
 .menu__subtitle {
   margin: 0 0 100px;
   max-width: 780px;
-  font-family: "Noto Serif" 'Times New Roman', serif;
+  font-family: "Noto Serif",'Times New Roman', serif;
   font-size: 20px;
   line-height: 30px;
 }

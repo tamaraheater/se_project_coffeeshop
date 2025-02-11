@@ -9,31 +9,27 @@
 .footer__content {
   margin: 0;
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
 }
-
 
 .footer__logo {
   margin: 0;
   width: 105px;
-  height: 39px;
-
+  height: 44px;
 }
 
 .footer__column-heading {
   margin: 0 0 20;
-
 }
 
-.footer__list{
+.footer__list {
   margin: 0;
   padding: 0;
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  gap: 16px
+  gap: 16px;
 }
-
 
 .footer__social-link {
   color: white;
@@ -42,7 +38,7 @@
   display: flex;
   align-items: center;
   transition: opacity 0.5s;
-  cursor: pointer
+  cursor: pointer;
 }
 
 .footer__social-link:hover {
@@ -58,7 +54,3 @@
 .footer__copyright {
   margin: 108 0 0;
 }
-
-
-
-

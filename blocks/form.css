@@ -1,11 +1,12 @@
 .form {
   max-width: 385px;
+  border: none;
 }
 
 .form_fieldset {
   margin: 0;
   padding: 0;
-  border: 1px solid #838383;
+  border: none;
 }
 
 .form__label {
@@ -13,6 +14,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  color: #000;
 }
 
 .form__input {
@@ -48,7 +50,6 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  transition: background-color 0.4s;
 }
 
 .form__button:hover {
@@ -56,6 +57,11 @@
   transition: background-color 0.4s;
 }
 
+.form__label_type_checkbox {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
 
 .form__checkbox {
   border-radius: 2px;

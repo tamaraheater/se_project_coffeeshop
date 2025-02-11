@@ -9,14 +9,13 @@
 
   100% {
     opacity: 0;
-    transform: scale(1.3);
+    transform: scale(1.4);
   }
 }
 
 .about {
   margin: 0;
   background-color: #0a2850;
-  color: #d9e7ff;
   padding: 100px 80px 173px;
   display: flex;
   justify-content: space-between;
@@ -30,8 +29,9 @@
   margin: 0;
   font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
-  font-size: 44px;
+  font-size: 40px;
   line-height: 52px;
+  color: #d9e7ff;
 }
 
 .about__content {
@@ -43,9 +43,9 @@
 }
 
 .about__paragraph {
-  font-family: "Noto Serif", "Times New Roman", serif;
+  font-family: "Noto-Serif", "Times New Roman", serif;
   font-size: 20px;
-  color: #d9e7ff;
+  color: #fff;
   line-height: 30px;
   margin: 0;
 }

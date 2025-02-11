@@ -1,12 +1,14 @@
 .form {
   max-width: 385px;
-  border: none;
-}
+  margin: 0;
+  padding: 0
+  }
 
 .form_fieldset {
   margin: 0;
   padding: 0;
-  border: none;
+  border: hidden;
+  align-items: center;
 }
 
 .form__label {

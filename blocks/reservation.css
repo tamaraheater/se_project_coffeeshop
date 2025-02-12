@@ -7,7 +7,6 @@
 .reservation__title {
   margin: 0 0 80px;
   text-align: center;
-  font-family: "Inter" Arial, sans-serif;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -16,4 +15,4 @@
 
 .reservation__form {
   margin: 0 auto;
-  }
+}

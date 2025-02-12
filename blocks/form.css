@@ -1,10 +1,9 @@
 .form {
   max-width: 385px;
-  margin: 0;
   padding: 0;
 }
 
-.form_fieldset {
+.form__fieldset {
   margin: 0;
   padding: 0;
   border: none;

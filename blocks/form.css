@@ -10,7 +10,6 @@
 }
 
 .form__label {
-  font-family: "Inter" Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -24,16 +23,14 @@
   box-sizing: border-box;
   margin: 8px 0 32px;
   border-radius: 4px;
-  font-family: "Inter", Arial, sans-serif;
   border: 1px solid #838383;
   font-size: 20px;
   line-height: 30px;
   color: #000;
 }
 
-.form__input_placeholder {
+.form__input:placeholder {
   color: #838383;
-  font-family: "Inter" Arial, sans-serif;
   font-size: 20px;
   line-height: 30px;
 }

@@ -27,11 +27,10 @@
 .about__title {
   max-width: 251px;
   margin: 0;
-  font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
-  font-size: 40px;
+  font-size: 44px;
   line-height: 52px;
-  color: #d9e7ff;
+  color: #fff;
 }
 
 .about__content {
@@ -43,7 +42,7 @@
 }
 
 .about__paragraph {
-  font-family: "Noto-Serif", "Times New Roman", serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   color: #fff;
   line-height: 30px;
